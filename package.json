@@ -1,7 +1,33 @@
 {
   "name": "@zeroxw/react-native-super-clusters",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "React Native Map Clustering both for Android and iOS",
+  "types": "index.d.ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "homepage": "https://github.com/zeroxw/react-native-super-clusters.git",
+  "repository": "https://github.com/zeroxw/react-native-super-clusters.git",
+  "keywords": [
+    "react-native",
+    "react",
+    "cluster",
+    "android",
+    "iOS",
+    "map",
+    "clustering"
+  ],
+  "author": "Dan Tran",
+  "license": "MIT",
+  "dependencies": {
+    "@mapbox/geo-viewport": "^0.4.1",
+    "supercluster": "^8.0.1"
+  },
+  "peerDependencies": {
+    "react-native": "*",
+    "react-native-maps": "*"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }

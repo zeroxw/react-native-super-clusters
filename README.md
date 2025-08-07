@@ -6,7 +6,7 @@ https://www.npmjs.com/package/react-native-map-clustering
 ## Installation
 
 ```js
-yarn add @allisonadam81/react-native-super-clusters react-native-maps --save
+yarn add @zeroxw/react-native-super-clusters react-native-maps --save
 // yarn add react-native-map-clustering react-native-maps
 ```
 
