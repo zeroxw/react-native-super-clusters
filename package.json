@@ -1,14 +1,17 @@
 {
   "name": "@zeroxw/react-native-super-clusters",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "React Native Map Clustering both for Android and iOS",
   "types": "index.d.ts",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "homepage": "https://github.com/zeroxw/react-native-super-clusters.git",
-  "repository": "https://github.com/zeroxw/react-native-super-clusters.git",
+  "homepage": "https://github.com/zeroxw/react-native-super-clusters#readme",
+  "repository": {
+  "type": "git",
+    "url": "git+https://github.com/zeroxw/react-native-super-clusters.git"
+  },
   "keywords": [
     "react-native",
     "react",
@@ -29,6 +32,7 @@
     "react-native-maps": "*"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
