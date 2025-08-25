@@ -1,6 +1,6 @@
 {
   "name": "@zeroxw/react-native-super-clusters",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "React Native Map Clustering both for Android and iOS",
   "types": "index.d.ts",
   "main": "index.js",
@@ -29,6 +29,6 @@
     "react-native-maps": "*"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   }
 }
